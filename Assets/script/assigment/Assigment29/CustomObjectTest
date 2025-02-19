@@ -1,0 +1,20 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+namespace assigment29
+{
+    public class CustomObjectTest : MonoBehaviour
+    {
+        CustomObject customObject = new CustomObject(50, "hassan");
+        print(ustomObject.ToString());
+        CustomObject customObject2 = new CustomObject(30, "shady");
+        if(customObject==customObject2){
+            print("to object is equeled");
+        }
+        else if(customObject!=customObject2){
+            print("to object is not equeled");
+        }
+        
+    }
+}
